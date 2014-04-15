@@ -1,0 +1,66 @@
+
+body {
+	background: white;
+	font-size: 16px;
+	font-family: Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+}
+
+#card-title-wrapper {
+	font-size: 200%;
+	font-weight: bold;
+	margin-bottom: 0.3em;
+}
+
+#card-title-wrapper .permalink {
+	color: transparent;
+	text-decoration: none;
+}
+
+#card-title-wrapper .permalink:hover {
+	color: #88ccee;
+}
+
+#card-text {
+	font-size: 130%;
+}
+
+#card-flavor-text {
+	font-size: 130%;
+	font-style: italic;
+	margin-top: 10px;
+	color: #666;
+}
+
+#options-button {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	opacity: 0.0;
+	transition: opacity 0.25s;
+	transition-delay: 0.5s;
+	cursor: default;
+}
+
+#options-button:hover {
+	opacity: 1.0;
+	transition-delay: 2.5s;
+	cursor: default;
+}
+
+label.radio.inline, label.checkbox.inline {
+	font-weight: normal;
+}
+
+label.disabled, label.disabled p.help-block {
+	color: #999;
+}
+
+ol {
+	margin-top: 0.5em;
+}
+
+ul.cards-affected {
+	list-style-type: none;
+	padding-left: 0px;
+	line-height: 1.5em;
+}

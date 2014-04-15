@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+	<meta name = 'apple-mobile-web-app-capable' content = 'yes'/>
+	<meta name="apple-mobile-web-app-status-bar-style" content = 'black-translucent'/>
+    <title>THE DECK</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- <link href="css/bootstrap-theme.min.css" rel="stylesheet"> -->
+    <link href="css/main.css" rel="stylesheet"/>
+
+	<link rel = 'apple-touch-icon' href = 'apple-touch-icon.png'/>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/js-yaml.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+  	<div class = 'container'>
+  		<div style = 'text-align: center'>
+	  		<h1>THE DECK</h1>
+			<div class = 'hidden-xs'>
+	    		<button class = 'btn btn-primary btn-lg' onclick = 'drawCard()'>Draw a Card</button>
+			</div>
+			<div class = 'visible-xs'>
+	    		<button class = 'btn btn-primary btn-lg btn-block' onclick = 'drawCard()'>Draw a Card</button>
+			</div>
+    	</div>
+    	<hr/>
+
+		<div id = 'card-title-wrapper'>
+	    	<span id = 'card-title'></span>
+			<a class = 'permalink' href = '#'>&para;</a>
+		</div>
+    	<div id = 'card-text'></div>
+    	<div id = 'card-flavor-text'></div>
+	</div>
+	<button class = 'btn btn-default' type = 'button' id = 'options-button' data-toggle = 'modal' data-target = '#options-modal'>Options</button>
+	<div class="modal fade" id = 'options-modal'>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Options</h4>
+      </div>
+      <div class="modal-body">
+	  	<div class = 'control-group'>
+			<label class = 'control-label'>Draw Style</label>
+			<div class = 'controls'>
+				<label class = 'radio inline'>
+					<input type = 'radio' name = 'draw-style' value = 'replacement' id = 'draw-style-replacement' onclick = 'numbersDrawn = []' />
+					With Replacement
+					<p class = 'help-block'>Cards will be put back in the deck after they are drawn.</p>
+				</label>
+				<label class = 'radio inline'>
+					<input type = 'radio' name = 'draw-style' value = 'no-replacement' id = 'draw-style-no-replacement' checked = 'true' />
+					Without Replacement
+					<p class = 'help-block'>Cards will be removed from the deck after they are drawn.</p>
+				</label>
+			</div>
+
+			<div class = 'control-group' id = 'card-options'>
+				<hr/>
+				<label class = 'control-label'>Card Options</label>
+			</div>
+		</div>
+		<!--
+		<hr />
+	  	<div class = 'control-group'>
+			<label class = 'control-label'>Card History</label>
+			<div class = 'controls'>
+				<label class = 'checkbox inline disabled'>
+					<input type = 'checkbox' name = 'draw-style' value = 'replacement' disabled = 'true' />
+					Show card history.
+					<p class = 'help-block'>Previously drawn cards will be shown below the current card.</p>
+				</label>
+			</div>
+		</div>
+		-->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,664 @@
+---
+cards:
+    - title: Kiss-Kiss
+      text: >
+        You must kiss another player of the opposite sex. If you take a
+        shot, you may choose whom you kiss, otherwise the other players
+        choose.
+      flavor_text: Pucker up.
+      requirements:
+        - There are girls present
+
+    - title: Tattoo
+      text: >
+        You must get a sharpie tattoo on your body drawn by another player.
+        If you take a shot, you may choose where you get the tattoo.
+      flavor_text: Mike Tyson
+
+    - title: Never Have I Ever&hellip;
+      text: Five strikes, loser drinks 5.
+
+    - title: Beer Bitch
+      text: >
+        For the remainder of the game, you must get a beer or drink for any
+        player who requests one.
+      flavor_text: 80% of the time this is Joe.
+
+    - title: Stoop Kid
+      text: >
+        You must sit on the stoop of the building for one round. Players will
+        call you back into the room when it is your turn again.
+      flavor_text: "Stoop kid's afraid to leave his stoop!"
+
+    - title: Get out of Jail Free
+      text: >
+        You may use this card to save yourself or a fellow player from
+        answering a question or participating in a card.
+      flavor_text: "Don't abuse it."
+
+    - title: T-Rex
+      text: >
+        You must hold your arms in the position of the infamous T-Rex for two
+        rounds. Take a shot to make it last for one round.
+      flavor_text: "I'm a jackoffasaurus rex!!!"
+
+    - title: Remote Control
+      text: >
+        You now have the ability to control any other player with commands
+        found on a remote control for one round. Example: Players may be muted
+        for a round.
+
+    - title: Self-Explanatory
+      text: Give someone a dollar or shotgun a beer or take a shot.
+      flavor_text: Do it!
+
+    - title: Taboo
+      text: >
+        Choose three words. Any player who says one of the three words drinks.
+        This lasts for the remainder of the game.
+      flavor_text: Card, Turn, Drink.
+
+    - title: Self-Explanatory
+      text: People wearing a different color shirt than you must drink 5.
+      flavor_text: You learn to wear a brown button down shirt.
+
+    - title: Dunce
+      text: You must sit or stand facing the corner for one round.
+      flavor_text: Give a shot if you wear a cone on your head.
+
+    - title: Get Spanked
+      text: >
+        You must get spanked by another player. If you take a shot, you may
+        choose which player spanks you.
+
+    - title: Social
+      text: Everyone drinks.
+      flavor_text: Four aces!
+
+    - title: No Names or Nicknames
+      text: >
+        If a player says another player's name or nickname, they drink 2. Lasts
+        1 round.
+      flavor_text: Hey, fuck face!
+
+    - title: Self-Explanatory
+      text: Finish your drink or take off an article of clothing.
+      flavor_text: Depends on what you're drinking.
+
+    - title: Copycat
+      text: You must copy every player's card for one round.
+      flavor_text: Good luck.
+
+    - title: Dude
+      text: You may only say "dude" for the remainder of the game.
+      flavor_text: Dude!
+
+    - title: Chug Challenge
+      text: >
+        You must challenge any player to chug a drink of your choice. The
+        winner slaps the loser.
+      flavor_text: "Challenge Brian, he's a bitch."
+
+    - title: JG Wentworth
+      text: You must open a window and yell "It's my money and I need it now".
+      flavor_text: I really do!
+
+    - title: Shoe Hands
+      text: You must wear your shoes on your hands for one round.
+      flavor_text: For kids!
+
+    - title: Speak in an Accent
+      text: >
+        You must speak in an accent chosen by the other players for one round.
+        Every time you speak without the accent you must drink.
+      flavor_text: Smashing.
+
+    - title: Self-Explanatory
+      text: First person to laugh drinks 6.
+      flavor_text: Knock knock.
+
+    - title: Coin Flip
+      text: Heads you drink five, tails you give 7.
+      flavor_text: "If I flip this coin, what's the chance of me getting head?"
+
+    - title: SLOOT
+      text: >
+        You must call a person of the opposite sex from your favorites or
+        recently called numbers. The phone must be on speaker. Call them a sloot
+        and hang up without explanation.
+      flavor_text: "When a sloot is blowing me? Definitely not a bad thing.<br/>-- Thad Castle"
+
+    - title: Pants Time Capsule
+      text: >
+        Every player puts one item in your pants. Your eyes must be closed,
+        but players may hand you items so that you may place them in your own
+        pants. At the end of the game, you may remove the items.
+      flavor_text: We suggest ice.
+
+    - title: Teamwork
+      text: >
+        Everyone must hold hands for an entire round. Hands may only be broken
+        to allow a player to participate in another card.
+      flavor_text: I'd like to lead you all in some swaying.
+
+    - title: Swap
+      text: >
+        You must swap your shirt and pants. If you are unable or unwilling, you
+        must reverse the order of clothing, i.e. underwear is now the top
+        layer.
+      flavor_text: Why do superheroes wear their underwear on the outside?
+
+    - title: Ice Ice Baby
+      text: You must hold an ice cube in each hand until they melt.
+      flavor_text: Dum dum dum da da dum dum.
+
+    - title: Player Count
+      text: Count the number of players, then drink that many.
+      flavor_text: Twelve.
+
+    - title: Movie Train
+      text: >
+        Name a movie. The next player must name an actor in that movie. The
+        next player must name a movie that the actor is in. Repeat pattern
+        until someone loses.
+
+    - title: Phone a Color
+      text: >
+        Call a friend, and ask them to name a color with no explanation.
+        Everyone wearing that color must remove that article or clothing or
+        take a shot per article of clothing they keep on.
+
+    - title: Coaster Rule
+      text: You must hold your drink in your hand for two rounds.
+      flavor_text: "At least you can't get fingered&hellip;"
+
+    - title: No Touch
+      text: >
+        You may not touch your legs or face for one round. Each touch is equal
+        to one drink.
+      flavor_text: Hopefully your eyes aren't itchy.
+
+    - title: Sext and Tell
+      text: >
+        Send a sexually inappropriate text to someone of the opposite sex from
+        favorites or recently texted numbers. Take a shot to choose what is
+        texted, otherwise the other players decide.
+
+    - title: Troll
+      text: Sit under the table for one round.
+
+    - title: You have been Turned to the Dark Side.
+      text: >
+        You must drink anytime someone else does for one round (except shots).
+      flavor_text: We have cake!
+
+    - title: Spin the Bottle
+      text: Grab a bottle and give it a spin.
+      flavor_text: Welcome back to middle school.
+
+    - title: Misery Loves Company
+      text: >
+        You may choose a card that has already been played and give it to
+        another player to repeat.
+
+    - title: Reverse, Reverse!
+      text: The game is now played in the opposite direction around the circle.
+      flavor_text: &larr;
+
+    - title: The Janitor
+      text: >
+        Clean the table of any empty drinks or food items for the rest of the
+        game.
+      flavor_text: It's <em>doctor<em> Jan Itor.
+
+    - title: The Understudy
+      text: >
+        You must now drink for the person on your left and right for one round.
+
+    - title: Hobbit Leaving the Shire
+      text: Grab three friends and take a lap around the building.
+      flavor_text: "Hobbits don't wear shoes."
+
+    - title: Stone Age
+      text: >
+        Turn off all electricity in the room (lights, music, phones, etc.).
+        Lasts for two rounds.
+      flavor_text: >
+        Someday I want there to be an electric railroad in the stone age.
+
+    - title: The Contest
+      text: >
+        Challenge any player to a contest of your choice. Loser must chug a
+        beer.
+      flavor_text: "Challenge Dan, he's a bitch."
+
+    - title: Snake Eyes
+      text: >
+        Any time a player looks you in the eyes, they must drink one. Lasts for
+        one round.
+
+    - title: Sex Mannequin
+      text: >
+        Choose two players and place them in a sex position of your choice.
+        Players must remain in position until it is one of their turns.
+      flavor_text: The grasshopper.
+
+    - title: Pregame
+      text: "Drink before everyone else's turn for one round."
+
+    - title: Cheers (Mothafucka)
+      text: Everyone of your sex must drink 2.
+
+    - title: Waterfall
+      text: The player on your left starts the waterfall, ending with you.
+
+    - title: New Best Friend
+      text: >
+        You must find another person to join the game. It may be a friend or a
+        stranger. For every round the player is not present, drink 5.
+      requirements:
+        - You can find a stranger
+
+    - title: Prohibition
+      text: >
+        No player may say anything related to alcohol for two rounds. Players
+        who do must drink two per word. This means you can't say drink, drunk,
+        alcohol types, or name brands.
+      flavor_text: >
+        We sell blocks of dried grapes. But don't put it in water and let it
+        soak for two weeks, because then it would turn into wine, and that
+        would be illegal.
+
+    - title: Change of Cup
+      text: >
+        Players must decide on an unusual drinking container that you must use
+        to drink from for the remainder of the game. The container may be
+        cleaned before use.
+
+    - title: Boob Tap
+      text: Tap the nearest boob.
+      flavor_text: Boop
+
+    - title: In the Pocket
+      text: >
+        You must place your hands in the pockets of the players to your left
+        and your right for one round.
+
+    - title: TMNT
+      text: >
+        Name all four teenage mutant ninja turtles. Drink 4 for each turtle you
+        miss.
+      flavor_text: The rat's name is Splinter.
+
+    - title: Paparazzi
+      text: >
+        Find a stranger and get a photo with them. If you fail to do so in one
+        round drink 5.
+      requirements:
+        - You can find a stranger
+
+    - title: Truth Card
+      text: Last time you cried?
+      flavor_text: :'(
+
+    - title: Truth Card
+      text: What is the most trouble you have been in with the law?
+
+    - title: Truth Card
+      text: >
+        Name a person or celebrity of the same sex you would be gay or
+        lesbian for.
+
+    - title: Truth Card
+      text: Most embarassing drunk story?
+
+    - title: American Idol
+      text: >
+        Sing everything you say for one round. Drink one for everything not
+        sung.
+
+    - title: Homeless Man
+      text: You have one round to collect 67 cents. Drink 7 if unable.
+
+    - title: Maple Syrup Shot
+      text: >
+        Take a shot of maple syrup. In the unfortunate event that pure Vermont
+        maple syrup is unavailable, a condiment of the other players' choice
+        must be substituted.
+      flavor_text: Better to drink Everclear than New Hamsphire maple syrup.
+
+    - title: Chinese Fire Drill
+      text: Everybody switch positions in the circle.
+      flavor_text: Firetrucks don't stop for red lights.
+
+    - title: Crush
+      text: >
+        Admit to having or have had a crush on someone in this room. Drink six
+        if you refuse or haven't had a crush.
+
+    - title: The Great Outdoors
+      text: You must go outside the next time you have to use the restroom.
+
+    - title: Heat Wave
+      text: >
+        Whatever you are drinking must be placed in the microwave for 20
+        seconds. Use the appropriate containers (no cans in the microwave).
+
+    - title: Moose
+      text: Last person to put up antlers drinks 3.
+
+    - title: Gingivitis
+      text: All gingers must drink 3.
+
+    - title: For the Love of Boy Bands
+      text: >
+        Other players choose a boy band from the 90s. Name all members. Drink
+        four for every missed member.
+      flavor_text: Everyone will get at least one person if you choose NSYNC.
+
+    - title: Fall in
+      text: >
+        The players to your left and right must join you in standing at
+        attention for one round. Drink four for any break in formation.
+
+    - title: The Floor is Lava
+      text: >
+        The floor has become lava to you for one round. Drink three per touch.
+
+    - title: Gettin' Fingered
+      text: >
+        Every person's drink who is one finger length from the edge of the
+        table must drink 3.
+
+    - title: Wild Card
+      text: Make a rule of your choice.
+
+    - title: Wild Card
+      text: Make a rule of your choice.
+
+    - title: Truth Card
+      text: What would you say is each players' best attribute?
+
+    - title: Wrong Number
+      text: >
+        Each player will give you a single digit to enter into your phone. Once
+        you have seven digits, add your area code before and hit dial on
+        speakerphone. For every minute on the phone with the stranger, you can
+        give out five drinks to the other players. Take a shot beforehand and
+        you may choose a different area code than your own.
+
+    - title: Supersize That
+      text: >
+        For one round, every time you have to drink, you must drink twice that
+        amount.
+
+    - title: Mike Tyson
+      text: >
+        Get a tribal tattoo on your face. Take a shot and you can use a
+        washable marker or eyeliner.
+
+    - title: Starstruck
+      text: >
+        Name a famous actor or actress that has starred in numerous films.
+        Starting with you, everyone must go around and name a movie they were
+        in. The first person to fail to name a movie drinks three.
+
+    - title: Over and Out
+      text: >
+        You must end every sentence with "over" for two rounds. Drink one for
+        every missed over.
+
+    - title: Bad Moonshine
+      text: You must get blindfolded for one round.
+
+    - title: Shut the Front Door
+      text: Drink once for every time you swear. Lasts two rounds.
+
+    - title: "Now That's Using your Head"
+      text: Keep your forehead on the table for one round.
+
+    - title: Name Chain
+      text: >
+        "You name a famous person. The next person names a famous person
+        starting with the letter of the last name of the person previously
+        said. The first person to mess up drinks four. Example: Bill Clinton,
+        Clint Eastwood, Emma Watson, etc."
+
+    - title: The Cow
+      text: >
+        In a double shot glass mix one shot of milk and one shot of alcohol of
+        your choice.
+      flavor_text: There's an easy way out of this.
+
+    - title: Boy Meets World
+      text: Call each girl in the room Topanga. Drink 3 every time you mess up.
+      flavor_text: It's Toh-PAN-Ga you ignorant fool.
+
+    - title: Chubby Cheeks
+      text: >
+        You must go to the fridge and place three items in your mouth. Take a
+        shot to decide which objects, otherwise the other players choose. Items
+        must remain in your mouth for one minute.
+
+    - title: Professor Oak
+      text: >
+        You have become professor Oak. You may not say anything nice and you
+        must be unnecessarily critical of everyone's actions and/or attire.
+        Lasts one round.
+      flavor_text: >
+        This is my grandson. He's your rival. Uhh... what's his name again?
+
+    - title: Blizzard Bra or Boxers
+      text: >
+        Go outside and place a snowball-size amount of snow in your boxers or
+        bra. Take a shot and you can pick another player to join you.
+      requirements:
+        - Snow on the ground
+
+    - title: Sobriety Checkpoint
+      text: >
+        You must pass three sobriety tests. <ol><li>Stand on one leg and count
+        to ten without falling.</li><li>The player on your left makes up a
+        test.</li><li>The player on your right makes up a test.</li></ol>
+
+    - title: Sex Change
+      text: >
+        If you are a male, you must get eight fingernails painted. If you are a
+        female, you must get a fake unibrow drawn on you. Take a shot, and
+        males can get only three nails and females can get it drawn in
+        eyeliner.
+
+    - title: "It's a Me, Mario!"
+      text: >
+        You must get a mustache that resembles Mario's. Take a shot and it can
+        be drawn in washable marker or eyeliner.
+
+    - title: What?
+      text: >
+        You may only speak in questions for one round. Drink once every time
+        you mess up.
+
+    - title: "World's Most Interesting Man"
+      text: >
+        You can only speak in terms of "I don't always ____, but when I do I
+        ____" for one round. Drink two every time you fail.
+      flavor_text: "<img src = 'interesting-man.jpeg' class = 'img-rounded' style = 'width: 200px; margin: auto; display: block;' />"
+
+    - title: Polyjuice Potion
+      text: >
+        You must get a cup and have everyone pour a splash of what they are
+        drinking into your cup. Drink said cup of mixed drinks.
+
+    - title: "Twi-Hard's Eternal Love"
+      text: >
+        Other players choose a player that you must sit in front of and stare
+        into their eyes for one round. Drink one every time you lose eye
+        contact.
+
+    - title: "#Hashtag"
+      text: >
+        You must include the word "hashtag" in each sentence. Failures result
+        in a drink.
+      flavor_text: "Let me take a #selfie."
+
+    - title: Electric Railroad
+      text: >
+        Everyone must put a hand on the ceiling. Everyone who takes a hand off
+        of the ceiling (except for the last player) takes a shot.
+      flavor_text: This is why the green line is late.
+
+    - title: Massachusetts Hole
+      text: >
+        Everyone not from Massachusetts drinks 4. If your name is Dan Etter,
+        take a shot instead.
+      flavor_text: Fahk you RC.
+
+    - title: Triple Dan
+      text: >
+        Do three shots of decreasing proof alchool within ten seconds.
+      flavor_text: Oppa Dan style.
+
+    - title: Minister of Foreign Affairs
+      text: >
+        You are the only player allowed to communicate with people not playing
+        the game for the rest of the game.
+
+    - title: Green Mountain Boys
+      text: >
+        Finish any unfinished drinks on the table.
+      flavor_text: Leave no man behind.
+
+    - title: The Royal We
+      text: >
+        You must refer to yourself in the magestic plural (<em>e.g.</em> We need a
+        refill.) for three rounds. Drink every time you mess up.
+
+    - title: No Pointing
+      text: If you point you drink.
+      flavor_text: "&#9758;"
+
+    - title: Gecco
+      text: >
+        Everyone must place three limbs on a vertical surface. The last one to
+        do so drinks 3.
+      flavor_text: But does London dispersion forces doe.
+
+    - title: Polite Society
+      text: >
+        Every time a player tells someone to drink, the player giving the
+        drink must compliment the other player.
+
+    - title: Diglett
+      text: Dig deep and finish your drink.
+
+    - title: Iced
+      text: >
+        Take a knee and chug a Smirnoff ice. If there is not one available, the
+        other players decide what you drink.
+      flavor_text: Pure Vermont maple syrup.
+
+    - title: Panhandling
+      text: Perform all actions in slow motion until your next turn.
+      flavor_text: Root Beer
+
+    - title: Permission
+      text: >
+        Whenever someone opens a drink, they must ask you for permission. If
+        they forget, they must finish the drink.
+
+    - title: Multitasking
+      text: >
+        Finish your drink while taking off your shirt (if your shirt is already
+        off, you may take off another article of clothing). Any clothes you
+        spill on must also be taken off.
+
+    - title: Add a Card
+      text: Add a card to the deck.
+      flavor_text: Send your additions to <a href = 'mailto:deck@rchowe.com'>deck@rchowe.com</a>.
+
+    - title: New Love
+      text: >
+        Kiss the player on your left on the lips. If you refuse, finish your
+        drink and theirs. If they refuse, they finish their drink and yours.
+      requirements:
+        - There are girls present
+
+    - title: Boring
+      text: Spice up the game. Choose a player to remove an article of clothing.
+
+    - title: Faptitude
+      text: >
+        Take a drink from the cup of each player you have masturbated to.
+
+    - title: Question Master
+      text: >
+        For one round, players must answer any questions you ask in the form
+        of a question. Drink two for each time they mess up.
+
+    - title: The old Reddit Switcharoo
+      text: Switch a piece of clothing with a player of your choosing.
+      flavor_text: "Ah, the old <a href = 'http://www.reddit.com/r/funny/comments/2314is/i_just_watched_a_girl_hit_a_parked_car_causing/cgsjhb9?context=4'>Reddit Switcharoo</a>."
+
+    - title: Have you ever?
+      text: Five drinks, everything must be explained. First one out must do a dare.
+
+    - title: Cup Check
+      text: All players must keep one hand over their genitals for one round.
+
+    - title: Love of Science
+      text: >
+        If you aren't a major in any field of chemistry, biology, physics, or
+        math or you aren't single, drink.
+
+    - title: Asshole
+      text: >
+        If nothing has ever entered your asshole, take a drink. If something
+        has, tell everyone what it was.
+      flavor_text: Brown Wings
+
+    - title: Mad Men
+      text: Put on nicer clothes and be unnecessarily mean to all women.
+
+    - title: Pok&eacute;mon Master
+      text: >
+        Name as many of the original 15 pokemon types as you can in 30 seconds.
+        Drink two for each type you miss; if you miss 5 or more, finish your
+        drink and your new name is Joey.
+      flavor_text: Pika Pika
+
+    - title: Less boring
+      text: >
+        For every shot you take, you may make another player remove an article
+        of clothing.
+
+    - title: Let it breathe
+      text: >
+        All players with zippers on their pants must unzip them now. Any player
+        whose pants are already unzipped must drink 3.
+
+    - title: Scout's Honor
+      text: For one round, you must be completely honest.
+
+    - title: Lose-Lose Situation
+      text: Choose another card. All players must perform that card.
+
+    - title: Carded
+      text: If your ID is not on your person, take a shot.
+      flavor_text: McLovin
+
+    - title: Aced
+      text: If you do not have an ace card on your person, remove your pants.
+      flavor_text: "<span style = 'color: black; font-style: normal;'>A&clubs; <span style = 'color: red;'>A&diams; A&hearts;</span> A&spades;</span>"
+
+    - title: Slut card
+      text: Drink once for every sexual partner you have had.
+
+    - title: Nay thou!
+      text: >
+        Every player must point at another player. The player with the most
+        people pointing at him or her must drink 4.
+
+    - title: Vodka for my ladies, Whiskey for a Grown Man
+      text: >
+        Men not drinking whiskey take a drink. Ladies drinking whiskey
+        give a drink.
