@@ -467,6 +467,7 @@ cards:
         female, you must get a fake unibrow drawn on you. Take a shot, and
         males can get only three nails and females can get it drawn in
         eyeliner.
+	  flavor_text: Pointer and thumb-pinky.
 
     - title: "It's a Me, Mario!"
       text: >
@@ -482,7 +483,7 @@ cards:
       text: >
         You can only speak in terms of "I don't always ____, but when I do I
         ____" for one round. Drink two every time you fail.
-      flavor_text: "<img src = 'interesting-man.jpeg' class = 'img-rounded' style = 'width: 200px; margin: auto; display: block;' />"
+      flavor_text: "<img src = 'interesting-man.png' class = 'img-rounded' style = 'width: 200px; margin: auto; display: block;' />"
 
     - title: Polyjuice Potion
       text: >
@@ -662,3 +663,14 @@ cards:
       text: >
         Men not drinking whiskey take a drink. Ladies drinking whiskey
         give a drink.
+
+    - title: Lederhosen
+      text: >
+        Put on a pair of suspenders. If no suspenders are available, improvise
+        suspenders.
+	
+	- title: Jersey Shore Style
+	  text: >
+	    The first person to stop fistpumping must get painted orange, have a
+		six pack drawn on them, or have their hair geled up.
+	  flavor_text: GTL
