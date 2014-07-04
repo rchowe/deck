@@ -669,8 +669,21 @@ cards:
         Put on a pair of suspenders. If no suspenders are available, improvise
         suspenders.
 	
-	- title: Jersey Shore Style
-	  text: >
-	    The first person to stop fistpumping must get painted orange, have a
-		six pack drawn on them, or have their hair geled up.
-	  flavor_text: GTL
+    - title: Jersey Shore Style
+      text: >
+        The first person to stop fistpumping must get painted orange, have a
+        six pack drawn on them, or have their hair geled up.
+      flavor_text: GTL
+
+    - title: Jinx
+      text: >
+        You are jinxed, and cannot speak. When someone says the name of someone
+        who is jinxed, they are jinxed, and the person whose name is said is
+        no longer jinxed.
+      flavor_text: And you owe me a coke.
+    
+    - title: Tourettes
+      text: >
+        You must include a swear word in every sentence. Drink whenever the swear
+        is the first or last word in the sentence.
+      flavor_text: FUCK!
