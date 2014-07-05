@@ -714,4 +714,5 @@ cards:
         Name as many of the original 15 pok&eacute;mon types as you can in 15 seconds.
         Drink one for every type you miss, and if you miss 5 or more, finish your drink
         and your new name is Joey.
-      flavor_text: STIs are not like pok&eacute;mon: you don't have to catch them all.
+      flavor_text: >
+	    STIs are not like pok&eacute;mon: you don't have to catch them all.
