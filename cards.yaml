@@ -687,3 +687,31 @@ cards:
         You must include a swear word in every sentence. Drink whenever the swear
         is the first or last word in the sentence.
       flavor_text: FUCK!
+
+    - title: Rock Slide
+      text: >
+        Hide under a blanket until your next turn.
+      flavor_text: It's super effective!
+    
+    - title: Rule
+      text: Make a rule.
+      
+    - title: Lick!
+      text: >
+        The last person to lick someone takes three drinks. If nobody licks anyone,
+        everyone takes four drinks.
+    
+    - title: Don't be Hatin'
+      text: >
+        Draw another card. Everyone must do what's on the card.
+        
+    - title: Gambling Man or Woman
+      text: >
+        Make a bet with another player. Bet at least two drinks.
+    
+    - title: Pok&eacute;mon Test
+      text: >
+        Name as many of the original 15 pok&eacute;mon types as you can in 15 seconds.
+        Drink one for every type you miss, and if you miss 5 or more, finish your drink
+        and your new name is Joey.
+      flavor_text: STIs are not like pok&eacute;mon: you don't have to catch them all.
