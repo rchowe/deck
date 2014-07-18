@@ -523,6 +523,7 @@ cards:
       text: >
         You are the only player allowed to communicate with people not playing
         the game for the rest of the game.
+      flavor_text: The Secretary of State is the American equivalent.
 
     - title: Green Mountain Boys
       text: >
@@ -668,7 +669,7 @@ cards:
       text: >
         Put on a pair of suspenders. If no suspenders are available, improvise
         suspenders.
-	
+
     - title: Jersey Shore Style
       text: >
         The first person to stop fistpumping must get painted orange, have a
@@ -681,7 +682,7 @@ cards:
         who is jinxed, they are jinxed, and the person whose name is said is
         no longer jinxed.
       flavor_text: And you owe me a coke.
-    
+
     - title: Tourettes
       text: >
         You must include a swear word in every sentence. Drink whenever the swear
@@ -692,23 +693,23 @@ cards:
       text: >
         Hide under a blanket until your next turn.
       flavor_text: It's super effective!
-    
+
     - title: Rule
       text: Make a rule.
-      
+
     - title: Lick!
       text: >
         The last person to lick someone takes three drinks. If nobody licks anyone,
         everyone takes four drinks.
-    
+
     - title: Don't be Hatin'
       text: >
         Draw another card. Everyone must do what's on the card.
-        
+
     - title: Gambling Man or Woman
       text: >
         Make a bet with another player. Bet at least two drinks.
-    
+
     - title: Pok&eacute;mon Test
       text: >
         Name as many of the original 15 pok&eacute;mon types as you can in 15 seconds.
