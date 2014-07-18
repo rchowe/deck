@@ -718,9 +718,14 @@ cards:
       flavor_text: >
 	    STIs are not like pok&eacute;mon: you don't have to catch them all.
 
-	- title: Carpool
-	  text: >
-	    Get in a crabwalk position. Choose any number of players to straddle
-		you, and go to the other end of the room. Give out one shot for
-		every player that does not fall off.
-	  flavor_text: I can see your undercarriage.
+    - title: Carpool
+      text: >
+        Get in a crabwalk position. Choose any number of players to straddle
+        you, and go to the other end of the room. Give out one shot for
+        every player that does not fall off.
+      flavor_text: I can see your undercarriage.
+
+    - title: Shirt Ninja
+      text: >
+        You have become a ninja, and must wear your shirt as a ninja mask (over your head).
+        Whenever someone looks into your eyes, they become the shirt ninja.
