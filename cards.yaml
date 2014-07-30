@@ -723,3 +723,13 @@ cards:
       text: >
         You have become a ninja, and must wear your shirt as a ninja mask (over your head).
         Whenever someone looks into your eyes, they become the shirt ninja.
+        
+    - title: Big Red Bitch Bag
+      text: >
+        Find a paper bag, cut holes in it for eyes, and wear it.
+      flavor_text: Respect the Bag
+      
+    - title: Ancient Chant
+      text: >
+        Who wants to drink from the big container?
+      flavor_text: Since 1865
