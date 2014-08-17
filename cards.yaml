@@ -733,3 +733,22 @@ cards:
       text: >
         Who wants to drink from the big container?
       flavor_text: Since 1865
+
+    - title: Slow Clap
+      text: >
+        Whenever you make eye contact with somebody, you have to slow clap for 10 seconds.
+      flavor_text: Best Slab Ever
+    
+    - title: Mr. Pinchy
+      text: >
+        You must stand up and hold your hands up as lobster claws for one round.
+      flavor_text: Dr. Bloopy says that this may be beneficial for your back.
+    
+    - title: Man in the Mountain
+      text: >
+        You have to stand with your back against the wall for one round.
+    
+    - title: YOOOOOOUUUUU!
+      text: >
+        Every time you talk to somebody, you must point to them with both hands and say YOU!
+      flavor_text: Crank that Soulja Boy
