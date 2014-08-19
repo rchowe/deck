@@ -203,7 +203,7 @@ cards:
 
     - title: Reverse, Reverse!
       text: The game is now played in the opposite direction around the circle.
-      flavor_text: &larr;
+      flavor_text: "&larr;"
 
     - title: The Janitor
       text: >
