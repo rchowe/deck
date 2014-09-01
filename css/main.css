@@ -66,15 +66,17 @@ ul.cards-affected {
 }
 
 #footer {
+	font-size: 95%;
+	color: gray;
 	display: block;
 	position: fixed;
 	bottom: 10px;
 	left: 10px;
 	right: 10px;
+	text-align: center;
 }
 
 #footer a {
-	display: block;
-	color: gray;
+	color: inherit;
 	text-align: center;
 }
