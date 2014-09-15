@@ -752,3 +752,9 @@ cards:
       text: >
         Every time you talk to somebody, you must point to them with both hands and say YOU!
       flavor_text: Crank that Soulja Boy
+
+    - title: Only Socks
+      text: >
+        You must remove all of your clothing except for your socks (but you can wear your socks
+        anywhere you want).
+      flavor_text: I don't stuff.
