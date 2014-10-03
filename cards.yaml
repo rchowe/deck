@@ -758,3 +758,7 @@ cards:
         You must remove all of your clothing except for your socks (but you can wear your socks
         anywhere you want).
       flavor_text: I don't stuff.
+      
+    - title: Color Shot
+      text: >
+        Take a shot and choose a color. All players must remove all clothing of that color.
