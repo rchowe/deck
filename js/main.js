@@ -52,7 +52,7 @@
 
   window.draw_card = function() {
     ' Draw a card, triggered when the user presses the draw card button. ';
-    var card, e, index, req, text, xhr, _, _i, _len, _ref;
+    var card, dt, e, index, req, text, x, xhr, _, _i, _len, _ref;
     if (cards == null) {
       xhr = new XMLHttpRequest;
       xhr.onreadystatechange = function() {
@@ -71,15 +71,42 @@
       return;
     }
     if (shoe.length === 0) {
-      shoe = (function() {
-        var _i, _len, _results;
-        _results = [];
-        for (index = _i = 0, _len = cards.length; _i < _len; index = ++_i) {
-          _ = cards[index];
-          _results.push(index);
+      try {
+        dt = ((new Date()) - (new Date(localStorage.getItem('shoe_date')))) / 1000.0;
+        if (dt < 60 * 60 * 24) {
+          console.log('Loading shoe from local storage (HTML5).');
+          shoe = (function() {
+            var _i, _len, _ref, _results;
+            _ref = localStorage.getItem('shoe').split(' ');
+            _results = [];
+            for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+              x = _ref[_i];
+              _results.push(parseInt(x));
+            }
+            return _results;
+          })();
+        } else {
+          shoe = (function() {
+            var _i, _len, _results;
+            _results = [];
+            for (index = _i = 0, _len = cards.length; _i < _len; index = ++_i) {
+              _ = cards[index];
+              _results.push(index);
+            }
+            return _results;
+          })();
         }
-        return _results;
-      })();
+      } catch (_error) {
+        shoe = (function() {
+          var _i, _len, _results;
+          _results = [];
+          for (index = _i = 0, _len = cards.length; _i < _len; index = ++_i) {
+            _ = cards[index];
+            _results.push(index);
+          }
+          return _results;
+        })();
+      }
     }
     shoe = shuffle(shoe);
     index = 0;
@@ -100,6 +127,12 @@
         }
         break;
       }
+    }
+    try {
+      localStorage.setItem('shoe', shoe.join(' '));
+      localStorage.setItem('shoe_date', new Date().toString());
+    } catch (_error) {
+      console.warn('Local Storage Error');
     }
     card = cards[index];
     $('#card-title').html(card.title);

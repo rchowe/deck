@@ -18,7 +18,6 @@ update_options = ->
 	keys = (req for req of requirements)
 	keys.sort()
 
-
 	for key in keys
 		out = '<ul class = "cards-affected">'
 		ids = requirements[key]
@@ -49,12 +48,20 @@ window.draw_card = ->
 
 	# Generate the deck, if necessary
 	if shoe.length == 0
-		shoe = (index for _, index in cards)
+		try
+			dt = ((new Date()) - (new Date(localStorage.getItem('shoe_date')))) / 1000.0
+			if dt < 60 * 60 * 24
+				console.log('Loading shoe from local storage (HTML5).')
+				shoe = (parseInt(x) for x in localStorage.getItem('shoe').split(' '))
+			else
+				shoe = (index for _, index in cards)
+		catch
+			shoe = (index for _, index in cards)
 
 	# Shuffle the deck
 	shoe = shuffle shoe
 
-	# TODO: Fix Requirements Behavior
+	# TODO: Fix Requirements Behavior/With Replacement
 	index = 0
 	if is_with_replacement()
 		index = shoe[0]
@@ -67,6 +74,13 @@ window.draw_card = ->
 					if e? and not e.checked
 						continue
 			break
+
+	# Save the shoe to local storage, if available
+	try
+		localStorage.setItem('shoe', shoe.join(' '))
+		localStorage.setItem('shoe_date', new Date().toString())
+	catch
+		console.warn('Local Storage Error')
 
 	# Update the card
 	card = cards[index]
