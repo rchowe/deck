@@ -53,8 +53,8 @@
 	  	<div class = 'control-group'>
 			<label class = 'control-label'>Draw Style</label>
 			<div class = 'controls'>
-				<label class = 'radio inline'>
-					<input type = 'radio' name = 'draw-style' value = 'replacement' id = 'draw-style-replacement' onclick = 'numbersDrawn = []' />
+				<label class = 'radio inline disabled'>
+					<input type = 'radio' name = 'draw-style' value = 'replacement' id = 'draw-style-replacement' onclick = 'numbersDrawn = []' disabled = 'true' />
 					With Replacement
 					<p class = 'help-block'>Cards will be put back in the deck after they are drawn.</p>
 				</label>
@@ -69,6 +69,14 @@
 				<hr/>
 				<label class = 'control-label'>Card Options</label>
 			</div>
+
+            <div class = 'control-group' id = 'reset-shoe'>
+                <hr />
+                <label class = 'control-label'>Reset Shoe</label>
+                <div class = 'controls'>
+                    <button class = 'btn btn-warning' onclick = 'shoe = []'>Clear Deck State</button>
+                </div>
+            </div>
 		</div>
 		<!--
 		<hr />

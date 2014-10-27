@@ -5,7 +5,9 @@
 
   cards = null;
 
-  shoe = [];
+  window.shoe = [];
+
+  shoe = window.shoe;
 
   requirements = {};
 
