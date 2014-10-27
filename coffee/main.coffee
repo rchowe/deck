@@ -89,9 +89,10 @@ window.draw_card = ->
 	text = card.text
 	text.replace('\n', '<br/>')
 	$('#card-text').html(text)
-	if 'flavor_text' in card
+	if 'flavor_text' of card
 		$('#card-flavor-text').html(card.flavor_text)
 	else
+		console.log('No Flavor Text')
 		$('#card-flavor-text').html('')
 
 is_with_replacement = ->

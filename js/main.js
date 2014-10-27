@@ -141,9 +141,10 @@
     text = card.text;
     text.replace('\n', '<br/>');
     $('#card-text').html(text);
-    if (__indexOf.call(card, 'flavor_text') >= 0) {
+    if ('flavor_text' in card) {
       return $('#card-flavor-text').html(card.flavor_text);
     } else {
+      console.log('No Flavor Text');
       return $('#card-flavor-text').html('');
     }
   };
