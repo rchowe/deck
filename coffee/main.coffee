@@ -11,7 +11,7 @@ update_options = ->
 	for card, index in cards
 		continue if 'requirements' not of card
 		for req in card.requirements
-			if req not in requirements
+			if req not of requirements
 				requirements[req] = []
 			requirements[req].push(index)
 
