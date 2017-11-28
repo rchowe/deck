@@ -762,3 +762,7 @@ cards:
     - title: Color Shot
       text: >
         Take a shot and choose a color. All players must remove all clothing of that color.
+    
+    - title: Do Your Laundry
+      text: >
+        Remove any articles of clothing you are wearing now that you were also wearing yesterday.
